@@ -19,7 +19,7 @@ Discord.py 基礎骨架
 
 > 運行環境 :
 >
-> - [Python](https://www.python.org/) 版本 `>= 3.10` 或以上
+> - [Python](https://www.python.org/) 版本 `3.10` 或以上
 > - [Discord.py](https://discordpy.readthedocs.io/en/stable/) 版本 `2.0.1` 或以上
 
 - 安裝 Discord.py
