@@ -10,7 +10,7 @@ class Admin(Cog_Basic_Inherit):
     @commands.command(description="訊息清除", aliases=["purge", "delete", "clean"])
     async def clear(self, ctx, amount=int):
         deleted = await ctx.channel.purge(limit=amount+1)
-        await ctx.send(f"已清除 {len(deleted-1)}/{amount} 則訊息", delete_after=5)
+        await ctx.send(f"已清除 {len(deleted)-1}/{amount} 則訊息", delete_after=5)
 
     @commands.has_permissions(kick_members=True)
     @commands.command(description="把成員踢出")
